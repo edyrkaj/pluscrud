@@ -9,9 +9,8 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "laravel/framework": "*",
         "doctrine/dbal": "~2.5",
-        "illuminate/support": "4.2.*"
+        "illuminate/support": "*"
     },
     "autoload": {
         "classmap": [
