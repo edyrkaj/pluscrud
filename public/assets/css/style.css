@@ -1,0 +1,285 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 15, 2014, 4:29:21 PM
+    Author     : eledi.dyrkaj
+*/
+
+#footer a {
+    color: white;
+}
+
+.navbar-inverse {
+/ / background-color : #812990 !important;
+}
+
+.breadcrumb a {
+    color: #804c75 !important;
+}
+
+.breadcrumb a:hover {
+    color: #000 !important;
+}
+
+/* Panel Fixed Heigh:Overflow scroll
+.panel-body {
+    max-height: 200px!important;
+}
+.panel-fix-200 {max-height:200px!important; overflow: auto;}
+/*.panel-fix-300 {max-height:300px!important; overflow: auto;}*/
+.uppercase {
+    text-transform: uppercase;
+}
+
+.img-150 {
+    height: 150px;
+    width: 150px;
+}
+
+.img-80 {
+    height: 80px;
+    width: 80px;
+}
+
+.img-60 {
+    height: 60px;
+    width: 60px;
+}
+
+.img-50 {
+    height: 50px;
+    width: 50px;
+}
+
+.img-30 {
+    height: 30px;
+    width: 30px;
+}
+
+.fileupload-50 {
+    height: 50px !important;
+    width: 50px !important;
+}
+
+/*#crud_table {
+    font-size: 100%!important;
+}*/
+
+.badge, .btn-xs {
+    font-size: 80% !important;
+}
+
+.row.well {
+    margin-left: 3px !important;
+    margin-right: 3px !important;
+}
+
+.extension {
+    width: 25px;
+    height: 25px;
+}
+
+/*MANAGE STATUSES*/
+.label-status-1 {
+    background-color: #804c75;
+}
+
+.label-status-2 {
+    background-color: #007AFF;
+}
+
+.label-status-3 {
+    background-color: #C7CBD5;
+}
+
+.label-status-4 {
+    background-color: #000;
+}
+
+.label-status-5 {
+    background-color: #ff5500;
+}
+
+.label-status-6 {
+    background-color: #ed9c28;
+}
+
+.label-status-7 {
+    background-color: #0092ef;
+}
+
+.label-status-8 {
+    background-color: #00cc66;
+}
+
+.tooltips {
+    z-index: 0 !important;
+}
+
+.panel-tools .dropdown i {
+    font-size: 13pt !important;
+}
+
+.panel-tools .dropdown > a {
+    margin-right: 2px !important;
+    border: none !important;
+}
+
+/*CUSTOM CSS FOR LEFT PANEL*/
+
+/*
+#pageslide-left .navigation-toggler .sb-toggle-left {
+    background: url(../../rapido/assets/images/dots.png) no-repeat center center!important;
+}
+
+#pageslide-left .btn {
+    color: #fff!important;
+}
+#pageslide-left .btn.log-out {
+    color: #804c75!important;
+}
+#pageslide-left .user-profile h4 {
+    color: #fff!important;
+}
+#pageslide-left .navbar-content .left-wrapper {
+    background-color: #804c75!important;
+}
+ul.main-navigation-menu > li a {
+    color: #fff!important;
+    font-weight: bold;
+}
+ul.main-navigation-menu > li > a > i {
+    color: #a347ad!important;
+}
+*/
+
+.btn.user-options.sb_toggle:hover {
+    background: #a347ad !important;
+    background-image: -webkit-linear-gradient(top, #a347ad, #64146b) !important;
+    background-image: -moz-linear-gradient(top, #a347ad, #64146b) !important;
+    background-image: -ms-linear-gradient(top, #a347ad, #64146b) !important;
+    background-image: -o-linear-gradient(top, #a347ad, #64146b) !important;
+    background-image: linear-gradient(to bottom, #a347ad, #64146b) !important;
+}
+
+.btn.user-options.sb_toggle:hover > i {
+    color: #fff !important;
+}
+
+ul.main-navigation-menu > li.active > a:first-of-type {
+    color: #fff !important;
+    background: #a347ad !important;
+    background-image: -webkit-linear-gradient(top, #a347ad, #64146b) !important;
+    background-image: -moz-linear-gradient(top, #a347ad, #64146b) !important;
+    background-image: -ms-linear-gradient(top, #a347ad, #64146b) !important;
+    background-image: -o-linear-gradient(top, #a347ad, #64146b) !important;
+    background-image: linear-gradient(to bottom, #a347ad, #64146b) !important;
+}
+
+ul.main-navigation-menu > li > a:hover {
+    color: #fff !important;
+    background: #a347ad !important;
+    background-image: -webkit-linear-gradient(top, #a347ad, #64146b) !important;
+    background-image: -moz-linear-gradient(top, #a347ad, #64146b) !important;
+    background-image: -ms-linear-gradient(top, #a347ad, #64146b) !important;
+    background-image: -o-linear-gradient(top, #a347ad, #64146b) !important;
+    background-image: linear-gradient(to bottom, #a347ad, #64146b) !important;
+}
+
+ul.main-navigation-menu > li > a:hover > i {
+    color: #fff !important;
+}
+
+/*
+ul.main-navigation-menu > li.open > a:first-of-type {
+    color: #804c75!important;
+}
+
+ul.main-navigation-menu > li a:hover i {
+    color: #000!important;
+}
+*/
+ul.main-navigation-menu > li.active > a:first-of-type i {
+    color: #fff !important;
+}
+
+/*
+ul.main-navigation-menu > li.open > a:first-of-type i {
+   color: #804c75!important;
+}
+*/
+
+/* centered columns styles */
+.row-centered {
+    text-align: center;
+}
+
+.col-centered {
+    display: inline-block;
+    float: none;
+    /* reset the text-align */
+    text-align: left;
+    /* inline-block space fix */
+    margin-right: -4px;
+}
+
+/* Panel Heading*/
+.panel-heading {
+    border-bottom: 0px !important;
+}
+
+/* Custom Datatable Pagination*/
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    background: #a347ad !important;
+    background-image: -webkit-linear-gradient(top, #a347ad, #64146b) !important;
+    background-image: -moz-linear-gradient(top, #a347ad, #64146b) !important;
+    background-image: -ms-linear-gradient(top, #a347ad, #64146b) !important;
+    background-image: -o-linear-gradient(top, #a347ad, #64146b) !important;
+    background-image: linear-gradient(to bottom, #a347ad, #64146b) !important;
+    border-color: #57517B !important;
+}
+
+/* Additional class used to lockscreen page*/
+.plusrelogin {
+    margin-top: 10px;
+}
+
+.plusrelogin > a {
+    color: #a347ad !important;
+}
+
+/**
+* CUSTOM CSS USED AT CRUD TABLES
+*/
+
+#crud_table > tbody > tr > td {
+    max-width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#crud_table > tbody > tr > td:last-child:not(.group), #crud_table > thead > tr > th:last-child:not(.group) {
+    text-align: right;
+    min-width: 65px!important;
+}
+
+.text-ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+div.DTTT_container {
+    z-index: 0 !important;
+}
+
+#table_languages td:last-child, #table_educations td:last-child, #table_experiences td:last-child {
+    text-align: right;
+    min-width: 65px!important;}
+
+.full-width {
+    width: 100%!important;
+}
